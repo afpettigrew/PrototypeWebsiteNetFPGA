@@ -1,6 +1,8 @@
 name: Build and deploy jekyll site to GitHub Pages
 
 on:
+  schedule: 
+    - cron: '*/30 0,12 * * *'
   push:
     branches:
       - master
