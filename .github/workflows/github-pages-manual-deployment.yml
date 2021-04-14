@@ -3,7 +3,9 @@ name: Testing the GitHub pages Publication
 on:
   schedule: 
     - cron: '*/30 0,12 * * *'
-  push
+  push:
+    branch:
+      - master
 
 jobs:
   jekyll:
