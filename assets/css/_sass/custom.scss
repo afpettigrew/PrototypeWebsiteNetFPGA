@@ -101,6 +101,15 @@ header#hero {
   }
 }
 
+.card{
+  &.check-container {
+    display: inline-block;
+    background-color: #A3C1AD;
+    border: 1px solid transparent;
+    border-color: #A3C1AD
+  }
+}
+
 .check-label {
   margin-bottom: 0;
 }
