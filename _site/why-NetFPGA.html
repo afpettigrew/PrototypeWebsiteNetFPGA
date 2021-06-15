@@ -20,25 +20,42 @@
   <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container">
-    <a class="navbar-brand js-scroll-trigger" href="/">NetFPGA</a>
-    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+    <a class="navbar-brand js-scroll-trigger" href="/" tabindex="0">NetFPGA</a>
+    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" tabindex="0">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">
-        
         <li class="nav-item">
-          <a class="nav-link" href="/">Home</a>
+          <div class="btn-group">
+            <a class="nav-link btn" href="/" tabindex="0">Home</a>
+            <button type="button" class="nav-link btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="sr-only">Toggle Dropdown</span></button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="/NetFPGA-PLUS.html">NetFPGA PLUS</a>
+              <a class="dropdown-item" href="/NetFPGA-SUME.html">NetFPGA SUME</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="/NetFPGA-CML.html">NetFPGA CML</a>
+              <a class="dropdown-item" href="/NetFPGA-10G.html">NetFPGA 10G</a>
+              <a class="dropdown-item" href="/NetFPGA-1G.html">NetFPGA 1G</a>
+            </div>
+          </div>
         </li>
-        
         <li class="nav-item">
-          <a class="nav-link" href="/About.html">About</a>
+          <div class="btn-group">
+            <a class="nav-link" href="/About.html" tabindex="0">About</a>
+            <button type="button" class="nav-link btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="sr-only">Toggle Dropdown</span></button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="/ecosystem.html">Ecosystem</a>
+              <a class="dropdown-item" href="/Publications.html">Publications</a>
+              <a class="dropdown-item" href="/why-NetFPGA.html">Why NetFPGA</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="https://github.com/NetFPGA/NetFPGA-public">Public GitHub Repository</a>
+            </div>
+          </div>
         </li>
-        
         <li class="nav-item">
-          <a class="nav-link" href="/news-and-events.html">News and Events</a>
+          <a class="nav-link" href="/news-and-events.html" tabindex="0">News and Events</a>
         </li>
-        
       </ul>
     </div>
   </div>
@@ -58,29 +75,7 @@
   <div class="container mb-5">
     <div class="row">
   <div class="offset-2 col-md-8 col-lg-8 mb-5">
-    <h2>About Us</h2>
-<hr />
-<p>
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deserunt neque
-  tempore recusandae animi soluta quasi? Asperiores rem dolore eaque vel, porro,
-  soluta unde debitis aliquam laboriosam. Repellat explicabo, maiores!
-</p>
-<p>
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis optio neque
-  consectetur consequatur magni in nisi, natus beatae quidem quam odit commodi
-  ducimus totam eum, alias, adipisci nesciunt voluptate. Voluptatum.
-</p>
-<p>
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deserunt neque
-  tempore recusandae animi soluta quasi? Asperiores rem dolore eaque vel, porro,
-  soluta unde debitis aliquam laboriosam. Repellat explicabo, maiores!
-</p>
-<p>
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deserunt neque
-  tempore recusandae animi soluta quasi? Asperiores rem dolore eaque vel, porro,
-  soluta unde debitis aliquam laboriosam. Repellat explicabo, maiores!
-</p>
-
+    
   </div>
 </div>
 
@@ -101,7 +96,7 @@
     +44 1223 763500
     <br />
     <abbr title="Email">E:</abbr>
-    <a href="mailto:enquiries@netfpga.org">enquiries@netfpga.org</a>
+    <a class="text-white" href="mailto:enquiries@netfpga.org">enquiries@netfpga.org</a>
   </address>
 </div>
 
