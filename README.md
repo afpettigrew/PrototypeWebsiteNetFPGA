@@ -94,8 +94,8 @@ To add a new years publications follow the same format as the most recent years 
 Then add:
 
 *{% include <YYYY>-Publications.html %}*
-*<hr>*
-*<br>*
+*hr tag*
+*br tag*
 
 to Publications.html
 
