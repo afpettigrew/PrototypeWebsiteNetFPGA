@@ -107,4 +107,14 @@ To edit the functionality of the checkboxes edit the news-and-events.html file.
 
 To change the information about a specific event/piece of news look for the file you're looking for in the _posts folder and all files that show up on the website have file names looking like \<YYYY\>-\<MM\>-\<DD\>-<title>.md
 
-To add a new piece of news check the [example-news-post.md](/_posts/example-news-post.md)
+To add a new piece of news check [example-news-post.md](/_posts/example-news-post.md) for all that's required.
+
+to add a new event check [example-events-post.md](/_posts/example-events-post.md) for all that's required.
+
+For events that have their information hosted on the NetFPGA website to edit those files these pages can be found in the _pages folder with the same naming format as the the events.
+
+
+<hr>
+<br>
+
+Most of the css used in the website is Bootstrap but the non-bootstrap css can be found [here](/assets/css/_sass/custom.scss).
