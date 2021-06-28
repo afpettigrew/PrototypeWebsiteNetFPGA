@@ -1,8 +1,8 @@
-#How to edit the website
+# How to edit the website
 
-##How to add Pages
+## How to add Pages
 
-##How to edit the Footer
+## How to edit the Footer
 
 In the _includes folder you can find the footer.html file as well as the sidebar.html file.
 
@@ -10,7 +10,7 @@ Sidebar.html contains the contact information parts of the footer whereas footer
 
 Editing this file will cause changes to happen on all pages.
 
-##How to edit the Header
+## How to edit the Header
 
 In the _includes folder you can find the header.html file.
 
@@ -18,7 +18,7 @@ To change the image in the header go to custom.scss in the _sass folder in the c
 
 Editing this file will cause changes to happen on all pages.
 
-##How to edit the Navigation Bar
+## How to edit the Navigation Bar
 
 In the _includes folder you can find the navigation.html file.
 
@@ -34,7 +34,7 @@ The "About" dropdown menu is for pages that are gives context on NetFPGA with th
 
 Editing the Navigation bar will affect every page.
 
-##How to edit the page layout
+## How to edit the page layout
 
 In the _layouts folder you can find default.html and page.html. Editing either one of these will affect the layout of the page.
 
@@ -42,49 +42,49 @@ To edit the layout with precision edit default.html because page.html uses defau
 
 Editing either of these will edit the layout of every page.
 
-###Editing the layout of a specific page
+### Editing the layout of a specific page
 
 To edit the specific of a particular page create a new html file in the _layouts folder and on the page you are editing change the layout to be the new layout you have just made.
 
-##How to edit a particular page
+## How to edit a particular page
 
-###How to edit the Home Page
+### How to edit the Home Page
 
 To edit the Home page edit the index.html file.
 
-###How to edit the pages for each system
+### How to edit the pages for each system
 
-####How to edit the NetFPGA PLUS page
+#### How to edit the NetFPGA PLUS page
 
 Edit the NetFGPA-PlUS.html file.
 
-####How to edit the NetFPGA SUME page
+#### How to edit the NetFPGA SUME page
 
 Edit the NetFPGA-SUME.html file.
 
-####How to edit the NetFPGA CML page
+#### How to edit the NetFPGA CML page
 
 Edit the NetFPGA-CML.html file.
 
-####How to edit the NetFPGA 10G page
+#### How to edit the NetFPGA 10G page
 
 Edit the NetFPGA-10G.html file.
 
-####How to edit the NetFPGA 1G page
+#### How to edit the NetFPGA 1G page
 
 Edit the NetFPGA-1G.html file.
 
-###How to edit the about page
+### How to edit the about page
 
 Edit the About.html file.
 
 All logos can be found sorted into to hosts and supporters in the Logos folders in the images folder in the assets folder.
 
-###How to edit the ecosystem page
+### How to edit the ecosystem page
 
 Edit the ecosystem.html file with standard HTML
 
-###How to edit the Publications to page
+### How to edit the Publications to page
 
 Each years publications are in the _includes folder with the naming system of <YYYY>-Publications.html
 To add publications to a particular year edit the corresponding file for the year.
@@ -93,16 +93,18 @@ To add a new years publications follow the same format as the most recent years 
 
 Then add:
 
-*{% include <YYYY>-Publications.html %}*
-*hr tag*
-*br tag*
+*{% include \<YYYY\>-Publications.html %}*
+
+*\<hr\>*
+
+*\<br\>*
 
 to Publications.html
 
-###How to edit the news and events page
+### How to edit the news and events page
 
 To edit the functionality of the checkboxes edit the news-and-events.html file.
 
-To change the information about a specific event/piece of news look for the file you're looking for in the _posts folder and all files that show up on the website have file names looking like <YYYY>-<MM>-<DD>-<title>.md
+To change the information about a specific event/piece of news look for the file you're looking for in the _posts folder and all files that show up on the website have file names looking like \<YYYY\>-\<MM\>-\<DD\>-<title>.md
 
 To add a new piece of news check the [example-news-post.md](/_posts/example-news-post.md)
