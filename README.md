@@ -117,7 +117,7 @@ If you want to add a new metadata field to the posts first add it to the example
 
 *{% if post.\<metadata tag\> %}*
 
-*\<appropriate tag\>{{ post.\<metadata tag\> }}\<appropriate tag\>*
+*\<appropriate tag\>{{ post.\<metadata tag\> }}\<\/appropriate tag\>*
 
 *{% endif %}*
 
