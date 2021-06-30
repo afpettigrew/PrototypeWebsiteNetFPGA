@@ -93,7 +93,7 @@ To add a new years publications follow the same format as the most recent years 
 
 Then add:
 
-*\{\% include \<YYYY\>-Publications.html %}*
+*{% include \<YYYY\>-Publications.html %}*
 
 *\<hr\>*
 
@@ -115,8 +115,9 @@ For events that have their information hosted on the NetFPGA website to edit tho
 
 If you want to add a new metadata field to the posts first add it to the example posts for the relevant categories and it what it is used for. Then add it to the rest of the affected posts. Then in the news and events file add
 
-*\{\{
-*\{\{ post.\<metadata tag\> \}\}*
+*{% if post.\<metadata tag\> %}*
+*\<appropriate tag\>{{ post.\<metadata tag\> }}\<appropriate tag\>*
+*{% endif %}*
 
 
 <hr>
